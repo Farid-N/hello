@@ -10,5 +10,14 @@ int main(int argc, char **argv) {
     printf("Major is computer science/n");
     printf("Minor is undeclared!!!123455!\n");
 
+
+
+
+
+
+
+
+    
+
     return 0;
  }
