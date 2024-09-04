@@ -8,8 +8,7 @@ int main(int argc, char **argv) {
 
     printf("Hello, I am Farid Naif/n");
     printf("Major is computer science/n");
-    printf("Minor in nothing")'
-
+    printf("Minor is undeclared");
 
     return 0;
  }
