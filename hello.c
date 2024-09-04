@@ -1,23 +1,14 @@
-/**
- * Basic Hello World Program
- */
-    #include <stdlib.h>
-    #include <stdio.h>
+
+#include <stdlib.h>
+#include <stdio.h>
 
 int main(int argc, char **argv) {
 
-    printf("Hello, I am Farid Naif/n");
-    printf("Major is computer science/n");
-    printf("Minor is undeclared!!!123455!\n");
+  printf("Farid Naif\n");
+  printf("Im in CS!\n");
 
-
-
-
-
-
-
-
-
-
-    return 0;
- }
+  printf("Cam Carlson!\n");
+  printf("I am also in CS!\n");
+  
+  return 0;
+}
