@@ -7,8 +7,8 @@
      */
 
 
-    #inlcude <stdio.h>
-    #inlcude <math.h>
+    #include <stdio.h>
+    #include <math.h>
 
     #define R 6371
     #define PI 3.14159265358979323846
