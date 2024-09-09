@@ -15,11 +15,11 @@
 
     double degrees_to_radians(double degree) {
 
-        return degrees * PII / 180
+        return degrees * PI / 180
     }
 
     int main () {
-        double la1, lon1, lat2, lon2;
+        double lat1, lon1, lat2, lon2;
         double d, delta_lon;
 
         printf("Enter the latitude of the origin (in degrees): ");
@@ -36,10 +36,10 @@
 
         lat1 = degrees_to_radian(lat1);
         lon1 = degrees_to_radians(lot1);
-        lat2 = degrees_to_radians(lat2):
+        lat2 = degrees_to_radians(lat2);
         lon2 = degrees_to_radians(lon2);
 
-        delta_lon = lon2 - lon1:
+        delta_lon = lon2 - lon1;
 
         d = acos(sin(lat1) * sin(lat2) + cos(lat2) * cos(lat2) * cos(delta_lon)) * R;
 
