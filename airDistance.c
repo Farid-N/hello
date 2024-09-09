@@ -15,7 +15,7 @@
 
     double degrees_to_radians(double degree) {
 
-        return degrees * PI / 180
+        return degree * PI / 180
     }
 
     int main () {
