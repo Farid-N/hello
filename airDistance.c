@@ -15,12 +15,12 @@
 
     double degrees_to_radians(double degree) {
 
-        return degrees * PII / 180.0
+        return degrees * PII / 180
     }
 
     int main () {
         double la1, lon1, lat2, lon2;
-        double d, delta_lon:
+        double d, delta_lon;
 
         printf("Enter the latitude of the origin (in degrees): ");
         scanf("%lf", &lat1);
@@ -45,11 +45,9 @@
 
         printf("\nLocatoin Distance\n");
         printf("========");
-        printf("Origin")
-
-
-
-
+        printf("Origin: (%lf, &lf)\n", lat1 * 180 / PI, lon1 * 180 / PI);
+        printf("Destination: (&lf, &lf)\n", lat2 * 180 / PI, lon2 * 180 / PI);
+        printf("Air distance is %lf km\n", d);
 
 
 
