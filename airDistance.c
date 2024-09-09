@@ -14,7 +14,7 @@
     #define PI 3.14159265358979323846
 
     double degrees_to_radians(double degree) {
-    return degree * PI / 180;
+    return degree * PII / 180;
     }
 
     int main () {
